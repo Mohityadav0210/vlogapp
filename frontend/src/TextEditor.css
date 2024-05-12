@@ -1,0 +1,66 @@
+/* TextEditor.css */
+
+/* Container styles */
+.text-editor-container {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+
+  }
+/* TextEditor.css */
+
+.titleeditor {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid blue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 10px;
+  }
+  .titleeditor:focus {
+    outline: none;
+    border-bottom: solid 2px blue;
+  }
+  
+  /* Quill editor styles */
+  .ql-editor {
+    height: 80vh;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Quill toolbar styles */
+  .ql-toolbar {
+    border: none;
+  }
+  
+  /* Quill toolbar buttons styles */
+  .ql-toolbar button {
+    color: #333;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  /* Quill toolbar buttons hover styles */
+  .ql-toolbar button:hover {
+    background-color: #f0f0f0;
+
+  }
+.ql-container{
+    border: none;
+    border-radius: 5px;
+}
+.ql-snow{  
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
